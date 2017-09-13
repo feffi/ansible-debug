@@ -1,0 +1,6 @@
+---
+- debug:
+    msg: "{{ vars }}"
+  when: DEBUG | d() | bool
+
+- include: configure.yml

@@ -1,0 +1,14 @@
+---
+galaxy_info:
+  author: Kevin Wennemuth
+  description: Ansible to debug various internals.
+  license: MIT
+  min_ansible_version: 2.3
+  platforms:
+    - name: Darwin
+      versions:
+        - all
+  galaxy_tags:
+    - system
+    - osx
+dependencies: []

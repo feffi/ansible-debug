@@ -5,4 +5,4 @@
     DEBUG: true
     debug: []
   roles:
-    - ansible-debug
+    - { role: ansible-debug }

@@ -12,4 +12,5 @@ galaxy_info:
     - ansible
     - debug
     - util
+    - vars
 dependencies: []

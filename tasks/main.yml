@@ -3,4 +3,4 @@
     msg: "{{ vars }}"
   when: DEBUG | d() | bool
 
-- include: configure.yml
+- include_tasks: configure.yml

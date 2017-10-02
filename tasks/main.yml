@@ -1,6 +1,11 @@
 ---
+#- debug:
+#    msg: "{{ vars }}"
+#    #var: ansible_user_id
+#  when: DEBUG | d() | bool
+
 - debug:
-    msg: "{{ vars }}"
+    var: hostvars
   when: DEBUG | d() | bool
 
 - include_tasks: configure.yml

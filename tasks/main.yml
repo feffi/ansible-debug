@@ -5,6 +5,10 @@
 #  when: DEBUG | d() | bool
 
 - debug:
+    var: environment
+  when: DEBUG | d() | bool
+
+- debug:
     var: hostvars
   when: DEBUG | d() | bool
 
